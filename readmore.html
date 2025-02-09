@@ -45,6 +45,18 @@
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
+  <script type="text/javascript"
+   src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+ </script>
+ <script type="text/javascript">
+ (function(){
+ emailjs.init({
+   publicKey: "fBL4GO0KqclGP2VGP",
+ });
+ })();
+ </script>
+
+
   <!-- Google Analytics (Tracking for SEO) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-D544TNTT9F"></script>
   <script>
@@ -74,18 +86,21 @@
           
           <li class="dropdown"><a href="#"><span>Services</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
-              <li><a href="#service-details1">Financial Modelling and Business Reports</a></li>
-              <li><a href="#service-details2">Pitch Decks and Business Strategy Development</a></li>
-              <li><a href="#service-details3">Virtual CFO</a></li>
-              <li><a href="#service-details4">Book Keeping Services</a></li>
+              <li><a href="service-details.html#tax-onsultancy">Tax Consultancy</a></li>
+              <li><a href="service-details.html#book-keeping">Book keeping</a></li>
+              <li><a href="service-details.html#⁠financialmodelling-and-businessreport">⁠Financial Modelling & Business report</a></li>
+              <li><a href="service-details.html#dashboard-setups">Dashboard setups</a></li>
+              <li><a href="service-details.html#virtual-cfo">⁠⁠Virtual CFO</a></li>
+              <li><a href="service-details.html#⁠strategy-consulting-and-pitch-decks">⁠Strategy consulting & Pitch decks</a></li>
+              
             </ul>
           </li>
-          <li><a href="index.html#contact">Contact</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
-      <a class="btn-getstarted" href="#service-details1">Finance and Strategy </a>
+      <a class="btn-getstarted" href="service-details.html">Finance and Strategy </a>
 
     </div>
   </header>
@@ -95,217 +110,121 @@
     <!-- Page Title -->
     <div class="page-title accent-background">
       <div class="container">
-        <h1>Service Details</h1>
+        <h1>JAC Global</h1>
         <nav class="breadcrumbs">
           <ol>
-            <li><a href="index.html">Home</a></li>
-            <li class="current">Service Details</li>
+            <li><a href="index.html">Finance</a></li>
+            <li class="current">Strategy</li>
+            <li class="current">Consultancy</li>
           </ol>
         </nav>
       </div>
     </div><!-- End Page Title -->
 
-    <!-- Service1 Details Section -->
-    <section id="service-details1" class="service-details section">
+   <!-- About Section -->
+   <section id="about" class="about section">
 
-      <div class="container">
+    <!-- Section Title -->
+    <div class="container section-title" data-aos="fade-up">
+     
+      <p>We are a team of chartered accountants and strategy managers offering expert bookkeeping, accounting, and financial advisory services, alongside strategic business solutions such as financial modeling and growth planning. Backed by over 10 years of combined experience, we provide tailored strategies that empower businesses to achieve their goals. With expertise in both international financial standards (IFRS) and local compliance, we ensure seamless operations for clients across borders. Our client-centric approach focuses on building trusted partnerships by consistently delivering value and results-driven solutions</p>
+    </div><!-- End Section Title -->
 
-        <div class="row gy-4">
-
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
-            <div class="services-list">
-              <a href="#service-details1" class="active">Financial Modelling and Business Reports</a>
-              <a href="#service-details2">Pitch Decks and Business Strategy Development</a>
-              <a href="#service-details3">Virtual CFO</a>
-              <a href="#service-details4">Book Keeping Services</a>
-            </div>
-
-            <h4>JAC Global Services</h4>
-            <p>At JAC Global, we offer a comprehensive range of financial and consulting services designed to help businesses thrive. From expert bookkeeping and accounting to strategic financial advisory, we provide tailored solutions such as financial modeling, pitch decks, and growth planning.</p>
-          </div>
-
-
-          <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
-            <h3>Financial Modelling and Business Reports</h3>
-            <img src="assets/img/service1.jpg" alt="" style="max-width: 50%; height: auto; display: block; " class="img-fluid services-img">
-
-            
-            <p>
-              Our financial modeling and business reporting services provide clarity and actionable insights to drive informed decision-making.
-            </p>
-            <ul>
-              <li><i class="bi bi-check-circle"></i> <span> Custom Financial Models: We build tailored models to evaluate scenarios, forecast outcomes, and assess risks effectively.</span></li>
-              <li><i class="bi bi-check-circle"></i> <span>Comprehensive Business Reports: Clear, data-driven reports offer in-depth analysis of key performance indicators and market trends.</span></li>
-              <li><i class="bi bi-check-circle"></i> <span>Strategic Insights: Turn complex data into strategies that align with your business goals and growth objectives.
-                Partner with us for tools and insights that empower your business to thrive in a competitive landscape.</span></li>
-            </ul>
-          </div>
-        </div>
-
-      </div>
-
-    </section>
     
-    <!-- /Service2 Details Section -->
 
-    <section id="service-details2" class="service-details section">
+  </section><!-- /About Section -->
 
-      <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
-            <div class="services-list">
-              <a href="#service-details1" >Financial Modelling and Business Reports</a>
-              <a href="#service-details2" class="active">Pitch Decks and Business Strategy Development</a>
-              <a href="#service-details3">Virtual CFO</a>
-              <a href="#service-details4">Book Keeping Services</a>
-            </div>
-
-            <h4>JAC Global Services</h4>
-            <p>At JAC Global, we offer a comprehensive range of financial and consulting services designed to help businesses thrive. From expert bookkeeping and accounting to strategic financial advisory, we provide tailored solutions such as financial modeling, pitch decks, and growth planning.</p>
-          </div>
-
-
-          <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
-            <h3>Pitch Decks and Business Strategy Development</h3>
-            <img src="assets/img/service2.jpg" alt="" style="max-width: 50%; height: auto; display: block; " class="img-fluid services-img">
-            
-            <p>
-              Our Pitch Decks and Business Strategy Development service is designed to help you communicate your vision and drive growth. We craft compelling pitch decks that captivate investors and stakeholders, while also developing strategic business plans tailored to your goals. Whether you’re looking to secure funding or optimize your operations, our expert team works with you to create clear, actionable strategies that set you up for long-term success.
-            </p>
-            <ul>
-              <li><i class="bi bi-check-circle"></i> <span>Crafting compelling pitch decks that showcase your vision, market opportunity, and financial strengths.</span></li>
-              <li><i class="bi bi-check-circle"></i> <span>Developing tailored business strategies to align with your goals and maximize growth potential.</span></li>
-              <li><i class="bi bi-check-circle"></i> <span>Combining data-driven insights with creative storytelling to drive stakeholder confidence and success.</span></li>
-            </ul>
-           
-          </div>
-        </div>
-
-      </div>
-
-    </section>
+   
     
-    <!-- /Service3 Details Section -->
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
 
-    <section id="service-details3" class="service-details section">
-
-      <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
-            <div class="services-list">
-              <a href="#service-details1" >Financial Modelling and Business Reports</a>
-              <a href="#service-details2" >Pitch Decks and Business Strategy Development</a>
-              <a href="#service-details3" class="active">Virtual CFO</a>
-              <a href="#service-details4">Book Keeping Services</a>
-            </div>
-
-            <h4>JAC Global Services</h4>
-            <p>At JAC Global, we offer a comprehensive range of financial and consulting services designed to help businesses thrive. From expert bookkeeping and accounting to strategic financial advisory, we provide tailored solutions such as financial modeling, pitch decks, and growth planning.</p>
-          </div>
-
-
-          <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
-            <h3>Virtual CFO</h3>
-            <img src="assets/img/services.jpg" alt="" style="max-width: 50%; height: auto; display: block; " class="img-fluid services-img">
-            
-            <p>
-              Our Virtual CFO service provides expert financial leadership without the overhead of a full-time hire. We offer strategic financial guidance, helping you manage cash flow, optimize operations, and make data-driven decisions to drive growth and profitability, all tailored to your unique business needs.
-            </p>
-            <ul>
-              <li><i class="bi bi-check-circle"></i> <span>Financial Strategy Development: Creating financial plans to align with the company’s goals and growth trajectory.</span></li>
-              <li><i class="bi bi-check-circle"></i> <span>Budgeting and Forecasting: Preparing and managing budgets and providing accurate financial forecasts.</span></li>
-              <li><i class="bi bi-check-circle"></i> <span>Cash Flow Management: Monitoring cash flow and ensuring the business has enough liquidity to meet its obligations.</span></li>
-              <li><i class="bi bi-check-circle"></i> <span>Financial Reporting: Providing detailed reports on the company’s financial health, including profit and loss statements, balance sheets, and KPIs.</span></li>
-              <li><i class="bi bi-check-circle"></i> <span>Risk Management: Identifying and mitigating financial risks to safeguard the company’s assets.</span></li>
-              <li><i class="bi bi-check-circle"></i> <span>Compliance and Tax Planning: Ensuring adherence to financial regulations and planning for tax efficiency.</span></li>
-            </ul>
-            
-          </div>
-        </div>
-
-      </div>
-
-    </section>
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p>"Get in touch with us today to discuss how we can help your business thrive and achieve its financial goals."</p>
+      </div><!-- End Section Title -->
     
-    <!-- /Service4 Details Section -->
-
-    <section id="service-details4" class="service-details section">
-
-      <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
-            <div class="services-list">
-              <a href="#service-details1" >Financial Modelling and Business Reports</a>
-              <a href="#service-details2" >Pitch Decks and Business Strategy Development</a>
-              <a href="#service-details3">Virtual CFO</a>
-              <a href="#service-details4" class="active">Book Keeping Services</a>
-            </div>
-
-            <h4>JAC Global Services</h4>
-            <p>At JAC Global, we offer a comprehensive range of financial and consulting services designed to help businesses thrive. From expert bookkeeping and accounting to strategic financial advisory, we provide tailored solutions such as financial modeling, pitch decks, and growth planning.</p>
-          </div>
-
-
-          <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
-            <h3>Book Keeping Services</h3>
-            <img src="assets/img/service4.jpg" alt="" style="max-width: 50%; height: auto; display: block; " class="img-fluid services-img">
-           
-            <p>
-              Our Bookkeeping Services ensure your financial records are accurate, organized, and up-to-date. We handle everything from daily transactions to monthly reconciliations, allowing you to focus on growing your business while we take care of the details for you.
-            </p>
-           
-
-          </div>
-        </div>
-
-      </div>
-
-    </section>
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
     
-    <!-- /Service5 Details Section -->
-
-    <section id="service-details5" class="service-details section">
-
-      <div class="container">
-
+       
+    
         <div class="row gy-4">
-
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
-            <div class="services-list">
-              <a href="#service-details1" >Financial Modelling and Business Reports</a>
-              <a href="#service-details2" >Pitch Decks and Business Strategy Development</a>
-              <a href="#service-details3">Virtual CFO</a>
-              <a href="#service-details4" class="active">Book Keeping Services</a>
-            </div>
-
-            <h4>JAC Global Services</h4>
-            <p>At JAC Global, we offer a comprehensive range of financial and consulting services designed to help businesses thrive. From expert bookkeeping and accounting to strategic financial advisory, we provide tailored solutions such as financial modeling, pitch decks, and growth planning.</p>
+    
+          <div class="col-lg-4">
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+              <i class="bi bi-geo-alt flex-shrink-0"></i>
+              <div>
+                <h3>Address</h3>
+                <p style="font-weight: bold;">UAE</p>
+                <p>JVC, District 13, Dubai, UAE</p>
+                <p style="font-weight: bold;">India</p>
+                <p>Kakkanad, Ernakulam, Kerala,India</p>
+              </div>
+            </div><!-- End Info Item -->
+    
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+              <i class="bi bi-telephone flex-shrink-0"></i>
+              <div>
+                <h3>Call Us</h3>
+                <p>00971 – 543280014 (UAE)</p>
+                <p>0091- 9656817737 (India)</p>
+                <p>0091- 9567661077 (India)</p>
+              </div>
+            </div><!-- End Info Item -->
+    
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="500">
+              <i class="bi bi-envelope flex-shrink-0"></i>
+              <div>
+                <h3>Email Us</h3>
+                <p>jaconsltingglobal@gmail.com</p>
+              </div>
+            </div><!-- End Info Item -->
+    
+          </div>
+    
+          <div class="col-lg-8">
+           
+            <div id="contact-form" class="php-email-form">
+              <div class="row gy-4">
+                  <div class="col-md-6">
+                      <input type="text" id="name" class="form-control" placeholder="Your Name" required>
+                  </div>
+                  <div class="col-md-6">
+                      <input type="email" id="email" class="form-control" placeholder="Your Email" required>
+                  </div>
+                  <div class="col-md-12">
+                      <input type="text" id="subject" class="form-control" placeholder="Subject" required>
+                  </div>
+                  <div class="col-md-12">
+                      <textarea id="message" class="form-control" rows="6" placeholder="Message" required></textarea>
+                  </div>
+                  <div class="col-md-12 text-center">
+                      <div class="loading" style="display: none;">Loading</div>
+                      <div class="error-message" style="display: none;">There was an error sending your message.</div>
+                      <div class="sent-message" style="display: none;">Your message has been sent. Thank you! We will contact you soon</div>
+                      <button id="sendMessage" class="custom-button">Send Message</button>
+                  </div>
+              </div>
           </div>
 
 
-          <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
-            <h3>Other Services</h3>
-            <img src="assets/img/service5.jpg" alt="" style="max-width: 50%; height: auto; display: block; " class="img-fluid services-img">
-           
-           
-            <p>
-              
-In addition to our core offerings, we provide a wide range of other financial services tailored to meet the unique needs of your business. Whether you need assistance with tax planning, audits, or customized financial solutions, we are here to help. Contact us today for any kind of financial support, and let our expert team guide you toward success.
-            </p>
-           
 
-          </div>
+          </div><!-- End Contact Form -->
+    
         </div>
-
+    
       </div>
+    
+    </section><!-- /Contact Section -->
+    
+    
+    
 
-    </section>
+
+
+
+
 
 
 
@@ -334,7 +253,7 @@ In addition to our core offerings, we provide a wide range of other financial se
           <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="index.html#about">About us</a></li>
-            <li><a href="#">Services</a></li>
+            <li><a href="service-details.html">Services</a></li>
             <!-- <li><a href="#">Terms of service</a></li>
             <li><a href="#">Privacy policy</a></li> -->
           </ul>
@@ -343,24 +262,23 @@ In addition to our core offerings, we provide a wide range of other financial se
         <div class="col-lg-2 col-6 footer-links">
           <h4>Our Services</h4>
           <ul>
-            <li><a href="#service-details1">Financial Modelling and Business Reports</a></li>
-            <li><a href="#service-details2">Pitch Decks Development</a></li>
-            <li><a href="#service-details2">Business Strategy Development</a></li>
-            <li><a href="#service-details3">Virtual CFO</a></li>
-            <li><a href="#service-details4">Book Keeping Services</a></li>
-            <li><a href="#service-details5">Other Services</a></li>
+            <li><a href="service-details.html#tax-onsultancy">Tax Consultancy</a></li>
+            <li><a href="service-details.html#book-keeping">Book keeping</a></li>
+            <li><a href="service-details.html#⁠financialmodelling-and-businessreport">⁠Financial Modelling & Business report</a></li>
+            <li><a href="service-details.html#dashboard-setups">Dashboard setups</a></li>
+            <li><a href="service-details.html#virtual-cfo">⁠⁠Virtual CFO</a></li>
+            <li><a href="service-details.html#⁠strategy-consulting-and-pitch-decks">⁠Strategy consulting & Pitch decks</a></li>
           </ul>
         </div>
 
         <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
           <h4>Contact Us</h4>
-          <p>Address line 1</p>
-          <p>Address line 2</p>
-          <p>UAE</p>
-          <p class="mt-4"><strong>Phone:</strong> <span>00971 – 543280014 (UAE)</span></p>
-            <p class="mt-4"><strong>Phone:</strong> <span>0091- 9656817737 (India)</span></p>
-              <p class="mt-4"><strong>Phone:</strong> <span> 0091- 9567661077 (India)</span></p>
-          <p><strong>Email:</strong> <span>info@jaconsultingglobal.com</span></p>
+          <p>JVC, District 13, Dubai, UAE</p>
+          <p class="mt-2"><strong>Phone:</strong> <span>00971 – 543280014 (UAE)</span></p>
+          <p class="mt-4" >Kakkanad, Ernakulam, Kerala,India</p>
+            <p class="mt-2"><strong>Phone:</strong> <span>0091- 9656817737 (India)</span></p>
+              <p class="mt-2"><strong>Phone:</strong> <span> 0091- 9567661077 (India)</span></p>
+          <p class="mt-4"><strong>Email:</strong> <span>jaconsltingglobal@gmail.com</span></p>
         </div>
 
       </div>
@@ -393,6 +311,66 @@ In addition to our core offerings, we provide a wide range of other financial se
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+  <style>
+    .custom-button {
+        background-color: #007bff; /* Blue color */
+        color: #ffffff; /* White text */
+        font-size: 16px;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 20px; /* Rounded edges */
+        cursor: pointer;
+    }
+</style>
+<!-- EmailJS Script -->
+<script type="text/javascript">
+  document.addEventListener('DOMContentLoaded', function() {
+      document.getElementById('sendMessage').addEventListener('click', function(event) {
+          event.preventDefault(); // Prevent any default action
+
+          // Show loading message
+          document.querySelector('.loading').style.display = 'block';
+
+          // Get input values
+          var nameField = document.getElementById('name');
+            var emailField = document.getElementById('email');
+            var subjectField = document.getElementById('subject');
+            var messageField = document.getElementById('message');
+            var name = nameField.value;
+            var email = emailField.value;
+            var subject = subjectField.value;
+            var message = messageField.value;
+
+          // Initialize EmailJS
+          emailjs.init("fBL4GO0KqclGP2VGP"); // Replace with your EmailJS public key
+
+          // Send email using EmailJS
+          emailjs.send('service_fzglcv6', 'template_drdizk1', {
+              name: name,
+              email: email,
+              subject: subject,
+              message: message
+          }).then(function(response) {
+              console.log('SUCCESS!', response.status, response.text);
+              document.querySelector('.loading').style.display = 'none';
+              document.querySelector('.sent-message').style.display = 'block';
+              document.querySelector('.error-message').style.display = 'none';
+              
+                // Clear input fields after successful submission
+                nameField.value = "";
+                emailField.value = "";
+                subjectField.value = "";
+                messageField.value = "";
+
+          }).catch(function(error) {
+              console.error('FAILED...', error);
+              document.querySelector('.loading').style.display = 'none';
+              document.querySelector('.error-message').style.display = 'block';
+              document.querySelector('.sent-message').style.display = 'none';
+          });
+      });
+  });
+</script>
 
 </body>
 
